@@ -9,8 +9,8 @@ export default function Page() {
         className={styles.img}
         src='/logo.png'
         alt='Logo'
-        height={300}
-        width={300}
+        height={1000}
+        width={1000}
       />
       <Card />
   </section>

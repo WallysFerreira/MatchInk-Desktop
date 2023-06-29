@@ -4,12 +4,11 @@
   background: #2a2a2a no-repeat right url('/fundo.png');
   z-index: -3;
 }
-.card {
-  position: absolute;
-  z-index: 2;
-}
 
 .img {
   position: absolute;
-  transform: rotate(160deg);
+  top: -50%;
+  left: -26%;
+  transform: rotate(190deg);
+  filter: grayscale(80%);
 }
