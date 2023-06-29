@@ -1,0 +1,14 @@
+.card p {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.card input {
+  width: 37vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 18px;
+}
