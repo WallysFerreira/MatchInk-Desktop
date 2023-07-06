@@ -5,10 +5,46 @@
   z-index: -3;
 }
 
+@media (max-width: 1600px) {
+  .img {
+    display: none;
+  }
+}
+
 .img {
   position: absolute;
   top: -50%;
   left: -26%;
   transform: rotate(190deg);
   filter: grayscale(80%);
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5%;
+  align-items: center;
+  font-size: 1.25em;
+}
+
+.btndark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16vw;
+  height: 7vh;
+  z-index: 3;
+  background-color: black;
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 1%;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
 }

@@ -1,6 +1,12 @@
+@media (max-height: 750px) {
+  .card p {
+    font-size: 1em;
+  }
+}
+
 .card p {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3em;
   text-align: center;
   color: white;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
@@ -10,5 +16,6 @@
   width: 37vw;
   height: 10vh;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125em;
+  min-height: 8vh;
 }
