@@ -8,7 +8,7 @@ export default function Page() {
     <section className={styles.container}>
       <nav className={styles.nav}>
         <Link className={styles.btn} href="/entrar">Entrar</Link>
-        <Link className={styles.btndark} href="/inscrever">Criar conta</Link>
+        <Link className={styles.btndark} href="/cadastro">Criar conta</Link>
       </nav>
       <Image
         className={styles.img}
